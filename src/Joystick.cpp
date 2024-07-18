@@ -489,7 +489,7 @@ void Joystick_::end()
 
 void Joystick_::setButton(uint8_t button, uint8_t value)
 {
-	if (value == 0)
+	if (value == 1)
 	{
 		releaseButton(button);
 	}
