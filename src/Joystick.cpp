@@ -498,6 +498,7 @@ void Joystick_::setButton(uint8_t button, uint8_t value)
 		pressButton(button);
 	}
 }
+//Inverted the value for it to work in normally closed switches
 void Joystick_::pressButton(uint8_t button)
 {
     if (button >= _buttonCount) return;
